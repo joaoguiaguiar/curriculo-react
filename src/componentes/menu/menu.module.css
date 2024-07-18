@@ -1,0 +1,36 @@
+.navegacao {
+    height: 112px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 3rem;
+}
+
+.link {
+    font-weight: bolder;
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    
+   
+}
+
+
+
+
+.linkDestacado{
+    text-decoration: underline;
+}
+
+
+
+.link:hover{
+
+    border-bottom:  3px solid black;
+}
+
+
+@media (max-width: 744px) {
+    .navegacao {
+        height: 72px;
+    }
+}

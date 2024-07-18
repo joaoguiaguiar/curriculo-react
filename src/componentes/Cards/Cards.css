@@ -1,0 +1,22 @@
+/* Cards.css */
+
+.section__cards {
+    color: white;
+    padding: 2rem;
+    margin-top: 6rem;
+    text-align: center;
+    background-color: black;
+
+}
+
+.banner {
+    width: 600px;
+    height: auto;
+}
+
+.container__cards {
+    
+    margin-top: 8rem;
+    padding: 0; 
+    list-style-type: none; 
+}

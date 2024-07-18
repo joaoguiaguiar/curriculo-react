@@ -1,0 +1,48 @@
+.banner{
+    display: flex;
+    justify-content: space-between;
+    gap: 5rem;
+    background-color: #070F2B;
+    padding: 20rem;   
+    color: white;
+    font-size: 1rem;
+}
+
+.titulo{
+font-size: 5rem;
+}
+
+.paragrafo{
+    margin-top: 5rem;
+    font-size: 1.3rem;
+    width: 55rem;
+}
+
+.logo{
+    height: 30rem;
+    width: 50rem;
+}
+
+@media screen and (max-width: 768px) {
+    .banner {
+        flex-direction: column;
+        align-items: center;
+        padding: 2rem; 
+        text-align: center; 
+    }
+
+    .titulo {
+        font-size: 2.5rem; 
+    }
+
+    .paragrafo {
+        margin-top: 2rem; 
+        font-size: 0.9rem; 
+        width: 90%; 
+    }
+
+    .logo {
+        height: auto; 
+        max-width: 80%;
+    }
+}
