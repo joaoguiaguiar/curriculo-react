@@ -1,17 +1,16 @@
-
 .post {
     background-color: #F6F5F2;
     width: 400px;
     height: 400px;
     border-radius: 0px 0px 10px 10px;
-    margin-bottom: 2rem; 
+    margin-bottom: 2rem;
 }
 
 .post:hover {
     transform: translate(0, -1rem);
 }
 
-.ancora{
+.ancora {
     text-decoration: none;
 }
 
@@ -28,7 +27,7 @@
     margin: 1.5rem 0 1.75rem;
 }
 
-.btnSaibaMais{
+.btnSaibaMais {
     text-decoration: none;
     border-radius: 1rem;
     background-color: #000;
@@ -38,14 +37,12 @@
 
 @media (max-width: 600px) {
     .post {
-        width: 100%; 
-        margin-bottom: 1rem; 
+        width: 100%;
+        margin-bottom: 1rem;
     }
 
     .titulo {
-        text-align: center; 
-        font-size: 1.125rem; 
+        text-align: center;
+        font-size: 1.125rem;
     }
-
- 
 }

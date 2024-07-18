@@ -10,24 +10,15 @@
     font-weight: bolder;
     font-size: 1.5rem;
     line-height: 1.5rem;
-    
-   
 }
 
-
-
-
-.linkDestacado{
+.linkDestacado {
     text-decoration: underline;
 }
 
-
-
-.link:hover{
-
-    border-bottom:  3px solid black;
+.link:hover {
+    border-bottom: 3px solid black;
 }
-
 
 @media (max-width: 744px) {
     .navegacao {
